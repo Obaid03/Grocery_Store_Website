@@ -1,6 +1,6 @@
 # 🛒 Grocery Store Website
 
-![Grocery Store Banner](https://source.unsplash.com/1200x400/?grocery,store)
+![Grocery Store Banner](https://source.unsplash.com/1200x400/?grocery.store)
 
 ## 🌟 Overview
 The **Grocery Store Website** is an online platform designed to provide a user-friendly shopping experience for grocery items. This project was developed as part of our **ICT (Information and Communication Technology) course project**. The website allows users to explore various product categories, view featured brands, and benefit from features like fresh and organic products, free delivery, and easy payments.
