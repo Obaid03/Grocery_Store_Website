@@ -17,7 +17,6 @@ The **Grocery Store Website** is an online platform designed to provide a user-f
 - **HTML5** 🎨: Structuring the web pages.
 - **CSS3** 💅: Styling the pages with responsive and interactive design.
 - **Google Fonts (Poppins)** ✍️: Used for better typography.
-- **JavaScript** ⚡: For interactive features like search and cart management.
 - **Vercel** 🚀: Used for deploying the website.
 
 ## 📁 Project Structure
