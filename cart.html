@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .cart-body {
+        margin-top: 60px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cart-text,
+      h1 {
+        color: #133e87;
+        font-weight: 900;
+        font-size: 60px;
+      }
+      .cart-img {
+        margin-top: 20px;
+        width: 40vb;
+      }
+      .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Grocery Store</a>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="features.html">features</a>
+        <a href="categories.html">categories</a>
+        <a href="cart.html">cart</a>
+      </nav>
+    </header>
+    <section class="cart-page">
+      <div class="cart-body">
+        <h1 class="cart-text">Your cart is empty</h1>
+        <img class="cart-img" src="image.cart/cart.png" />
+        <a href="index.html" class="btn" style="margin-top: 25px">Add Items</a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2024 GROCERY STORE WEBSITE . All Rights Reserved.
+      <a href="about.html">About the Developers</a>
+    </footer>
+  </body>
+</html>

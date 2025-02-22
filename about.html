@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .about-page {
+        margin-top: 30px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .name {
+        color: #133e87;
+        font-size: 20px;
+      }
+
+      .roll-no {
+        color: #000000;
+        font-size: 10px;
+      }
+
+      .about-card {
+        padding: 1rem 0.6rem;
+        height: 110px;
+        width: 450px;
+        background: #fff;
+        text-align: center;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .btn {
+        margin: 0.5rem 0;
+        display: inline-block;
+        padding: 0.4rem 1.5rem;
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        border: 0.1rem solid black;
+        color: black;
+        cursor: pointer;
+        background: none;
+        transition: all 0.3s ease;
+      }
+
+      .btn:hover {
+        background: var(--primary);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Grocery Store</a>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="features.html">features</a>
+        <a href="categories.html">categories</a>
+        <a href="cart.html">cart</a>
+      </nav>
+    </header>
+
+    <section class="about-page">
+      <div class="about-card">
+        <h1 class="name">Muhammad Hasnain Siddiqui</h1>
+        <h3 class="roll-no">24K-0516</h3>
+        <div class="button">
+          <button class="btn">GitHub</button>
+          <button class="btn">LinkedIN</button>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <h1 class="name">Muhammad Obaid Ullah</h1>
+        <h3 class="roll-no">24K-0793</h3>
+        <div class="button">
+          <button class="btn">GitHub</button>
+          <button class="btn">LinkedIN</button>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <h1 class="name">Muhammad Ibrahim</h1>
+        <h3 class="roll-no">24K-0649</h3>
+        <div class="button">
+          <button class="btn">GitHub</button>
+          <button class="btn">LinkedIN</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Copyright © 2024 GROCERY STORE WEBSITE . All Rights Reserved.
+      <a href="about.html">About the Developers</a>
+    </footer>
+  </body>
+</html>
